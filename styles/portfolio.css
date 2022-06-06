@@ -28,6 +28,30 @@
   color: white;
 }
 
+body {
+  background-color: var(--background-color);
+}
+
+/* ipad screens that are 992px or less, background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: orange;
+  }
+}
+
+/* iphone screens that are 600px or less, background color is blue */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+
+  .tema_knap {
+    font-family: "Poller One", cursive;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
 /* hover */
 @media (min-width: 700px) {
   .grid {

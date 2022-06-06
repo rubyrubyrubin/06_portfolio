@@ -1,0 +1,37 @@
+.mig {
+  padding-inline: 1rem;
+}
+
+.ligger {
+  padding: 2rem;
+}
+
+video {
+  padding-top: 1.5rem;
+  padding-inline: 1rem;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: smaller;
+}
+
+h5 {
+  text-align: center;
+  font-size: smaller;
+  padding-bottom: 0.7rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.2rem;
+  background-color: var(--header-color);
+}

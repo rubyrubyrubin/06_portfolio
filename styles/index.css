@@ -8,3 +8,27 @@
     font-size: 6rem;
   }
 }
+
+.ligger_vert {
+  opacity: 50%;
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+}
+
+/* .container {
+  position: relative;
+  text-align: center;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.forside_h1 {
+  display: grid;
+  place-items: center;
+  place-self: center;
+  grid-area: 1/1;
+}
