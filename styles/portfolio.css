@@ -1,0 +1,58 @@
+.portfolio {
+  padding: 2rem;
+  margin-top: 20px;
+}
+
+.img_wrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img_wrapper > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img_wrapper > .fade {
+  opacity: 0;
+}
+
+.img_wrapper:hover > .fade {
+  opacity: 1;
+}
+
+.hover {
+  color: white;
+}
+
+/* hover */
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 40px;
+    padding-inline: 120px;
+    padding-bottom: 2rem;
+  }
+
+  .portfolio {
+    padding-inline: 4rem;
+    padding-block: 2rem;
+    margin-top: 20px;
+  }
+  .menu {
+    padding-top: 2rem;
+  }
+}
+.hover_h2 {
+  color: white;
+}
+
+.tema_knap {
+  font-family: "Poller One", cursive;
+  font-size: 2rem;
+  color: white;
+}
