@@ -3,8 +3,8 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
   .forside_h1 {
-    font-size: 15rem;
+    font-size: 6rem;
   }
 }

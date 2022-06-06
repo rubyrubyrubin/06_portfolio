@@ -5,8 +5,8 @@
 
 /* costum property farver */
 html {
-  --header-color: #82c588;
-  --background-color: #c5df73;
+  --header-color: #c5df73;
+  --background-color: #ddf29b;
 }
 
 img {
@@ -30,6 +30,15 @@ body {
 h1 {
   font-family: "Poller One", cursive;
   font-size: 6rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-family: "Poller One", cursive;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
 }
 
 h2 {
@@ -60,6 +69,12 @@ header {
 
 .logo {
   align-self: center;
+}
+
+@media all and (max-width: 1000px) {
+  .logo {
+    width: 23%;
+  }
 }
 
 .nav_list {
