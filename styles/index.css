@@ -32,3 +32,31 @@
   place-self: center;
   grid-area: 1/1;
 }
+
+/* hide video vis billede */
+@media (min-width: 600px) {
+  .splash {
+    display: none;
+  }
+}
+
+/* hide billede vis video */
+@media (max-width: 900px) {
+  .splash_mobil {
+    display: none;
+  }
+}
+
+.splash {
+  height: 100%;
+  max-width: none;
+  background-image: url(/img/splash.png);
+  background-size: cover;
+}
+
+.splash_mobil {
+  height: 100%;
+  max-width: none;
+  background-image: url(/img/splash-2.png);
+  background-size: cover;
+}

@@ -42,7 +42,7 @@ body {
 /* iphone screens that are 600px or less, background color is blue */
 @media screen and (max-width: 600px) {
   body {
-    background-color: blue;
+    background-color: var(--background-color);
   }
 
   .tema_knap {
