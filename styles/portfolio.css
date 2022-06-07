@@ -39,7 +39,7 @@ body {
   }
 }
 
-/* iphone screens that are 600px or less, background color is blue */
+/* iphone screens that are 600px or less, background color is purple */
 @media screen and (max-width: 600px) {
   body {
     background-color: var(--background-color);
@@ -53,12 +53,11 @@ body {
 }
 
 /* hover */
-@media (min-width: 700px) {
+@media (min-width: 60px) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-top: 40px;
-    padding-inline: 120px;
     padding-bottom: 2rem;
   }
 
@@ -83,4 +82,9 @@ body {
 
 .img_wrapper {
   filter: drop-shadow(10px 10px 4px #000000);
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

@@ -10,7 +10,7 @@
 }
 
 .ligger_vert {
-  opacity: 50%;
+  opacity: 100%;
   object-fit: cover;
   width: auto;
   height: 100%;
@@ -36,14 +36,16 @@
 /* hide video vis billede */
 @media (min-width: 600px) {
   .splash {
-    display: none;
+    display: grid;
   }
 }
 
 /* hide billede vis video */
 @media (max-width: 900px) {
-  .splash_mobil {
-    display: none;
+  .splash {
+    display: grid;
+    width: 100%;
+    height: auto;
   }
 }
 
