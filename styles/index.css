@@ -60,3 +60,36 @@
   background-image: url(/img/splash-2.png);
   background-size: cover;
 }
+
+.forsidecontainer {
+  display: grid;
+  /* grid-template-columns: 1fr 1rem 1fr;
+  grid-template-rows: 2fr 1fr; */
+}
+
+@media all and (min-width: 600px) {
+  .forsidecontainer {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: repeat(4fr);
+  }
+}
+
+@media all and (min-width: 600px) {
+  .port {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding-left: 2.3rem;
+  }
+
+  .om {
+    grid-column: 3/3;
+    grid-row: 1;
+    padding: 4.3rem;
+  }
+
+  .cv {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
