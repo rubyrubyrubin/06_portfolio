@@ -5,9 +5,9 @@
 
 /* costum property farver */
 html {
-  --header-color: #c5df73;
-  --background-color: #ddf29b;
-  --blue-background-color: #4916f5;
+  --header-color: #f4ecde;
+  --background-color: #fdf9f0;
+  --blue-background-color: #fdf9f0;
 }
 
 html {
@@ -24,7 +24,6 @@ img {
 
 .img_wrapper {
   filter: drop-shadow(10px 10px 4px #000000);
-  border-image: url(/img/background.png) 30 round;
 }
 
 video {
@@ -41,12 +40,14 @@ p {
 
 body {
   background-color: var(--blue-background-color);
+  background-image: url("/img/purplesky.jpg");
 }
 
 h1 {
   font-family: var(--main-font);
   font-size: 6rem;
   padding-top: 1rem;
+  color: #ddf29b;
 }
 
 h2 {
