@@ -18,10 +18,13 @@ html {
 img {
   max-width: 100%;
   height: auto;
+  /* border: 5px solid blueviolet; */
+  border-image: url("/img/background.png") 30/ 5px round;
 }
 
 .img_wrapper {
   filter: drop-shadow(10px 10px 4px #000000);
+  border-image: url(/img/background.png) 30 round;
 }
 
 video {
@@ -180,14 +183,11 @@ li {
   background-color: #2f3c7e;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 600px) {
   .navbar {
     flex-direction: column;
     position: relative;
     display: block;
-  }
-  .icons {
-    display: none;
   }
 
   .logo {
@@ -218,6 +218,12 @@ li {
   }
   .active {
     display: block;
+  }
+}
+
+@media all and (min-width: 600px) {
+  #toggle-button {
+    display: none;
   }
 }
 

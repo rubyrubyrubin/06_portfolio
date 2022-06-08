@@ -33,32 +33,30 @@
   grid-area: 1/1;
 }
 
-/* hide video vis billede */
+/* hide web vis mobile */
 @media (min-width: 600px) {
   .splash {
-    display: grid;
+    display: none;
   }
 }
 
-/* hide billede vis video */
+/* hide mobile vis web */
 @media (max-width: 900px) {
-  .splash {
-    display: grid;
-    width: 100%;
-    height: auto;
+  .splash_mobile {
+    display: none;
   }
 }
 
 .splash {
   height: 100%;
-  max-width: none;
+  max-width: auto;
   background-image: url(/img/splash.png);
   background-size: cover;
 }
 
 .splash_mobil {
   height: 100%;
-  max-width: none;
+  max-width: auto;
   background-image: url(/img/splash-2.png);
   background-size: cover;
 }
