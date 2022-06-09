@@ -34,14 +34,14 @@ textarea {
 /* ipad screens that are 992px or less, background color is blue */
 @media screen and (max-width: 992px) {
   body {
-    background-color: orange;
+    background-image: url(/img/purplesky.jpg);
   }
 }
 
 /* iphone screens that are 600px or less, background color is blue */
 @media screen and (max-width: 600px) {
   body {
-    background-color: #4916f5;
+    background-image: url(/img/purplesky.jpg);
   }
 
   .tema_knap {

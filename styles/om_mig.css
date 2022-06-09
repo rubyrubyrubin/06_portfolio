@@ -1,4 +1,4 @@
-.mig {
+/* .mig {
   padding-inline: 1rem;
 }
 
@@ -23,3 +23,11 @@ video {
   text-align: center;
   padding: 0.4rem;
 }
+
+.bg {
+  background-image: url("/img/purplesky.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
