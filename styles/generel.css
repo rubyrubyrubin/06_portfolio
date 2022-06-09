@@ -164,7 +164,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
-  background-color: grey;
+  background-color: lightgray;
 }
 
 .navbar {
@@ -409,7 +409,6 @@ li {
   cursor: pointer;
   font-size: 0.8rem;
   text-align: center;
-  place-self: center;
   color: white;
   font-size: 1rem;
   margin-inline: auto;

@@ -31,24 +31,25 @@ textarea {
   border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
 }
 
+/* body {
+  background-image: url(/img/purplesky.jpg);
+}
 /* ipad screens that are 992px or less, background color is blue */
-@media screen and (max-width: 992px) {
+/* @media screen and (min-width: 992px) {
   body {
     background-image: url(/img/purplesky.jpg);
   }
-}
+} */
 
 /* iphone screens that are 600px or less, background color is blue */
-@media screen and (max-width: 600px) {
+/* @media screen and (min-width: 600px) {
   body {
     background-image: url(/img/purplesky.jpg);
-  }
-
-  .tema_knap {
-    font-family: "Poller One", cursive;
-    font-size: 2rem;
-    text-align: center;
-  }
+  } */
+*/ .tema_knap {
+  font-family: "Poller One", cursive;
+  font-size: 2rem;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
@@ -81,4 +82,12 @@ textarea {
 .text1 {
   grid-row: 1/3;
   grid-column: 1/3;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 5%;
+  gap: 2%;
 }
