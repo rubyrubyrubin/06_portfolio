@@ -356,7 +356,7 @@ li {
 }
 
 #om_mig > div {
-  border: 2px solid #eee;
+  /* border: 2px solid #eee; */
   border-radius: 10px;
 }
 
@@ -420,13 +420,14 @@ li {
     display: grid;
   }
 
-  .container {
+  /* .container {
     display: grid;
     gap: 5rem;
     padding-bottom: 1.5rem;
     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 4rem;
-  }
+  } */
 
   .tema_img {
     display: grid;
@@ -448,4 +449,12 @@ li {
 .tema_img > * {
   /* grid-area: 1/1; */
   place-self: center;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 5%;
+  gap: 2%;
 }
