@@ -42,7 +42,7 @@ body {
 }
 
 .bg {
-  background-image: url("img/purplesky.jpg");
+  background-image: url(/img/oceanlight.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +128,6 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
-  background-color: var(--header-color);
 }
 
 .navbar {
