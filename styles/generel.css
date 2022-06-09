@@ -5,7 +5,7 @@
 
 /* costum property farver */
 html {
-  --header-color: #f4ecde;
+  --header-color: lightgray;
   --background-color: #fdf9f0;
   --blue-background-color: #fdf9f0;
 }
@@ -24,6 +24,7 @@ img {
 
 .img_wrapper {
   filter: drop-shadow(10px 10px 4px #000000);
+  cursor: pointer;
   /* display: grid; */
 }
 
@@ -148,7 +149,6 @@ h6 {
 
 footer {
   text-align: center;
-  margin-top: 1.5rem;
   padding-top: 1.5rem;
   padding-bottom: 1.2rem;
   background-color: var(--header-color);
@@ -164,7 +164,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
-  background-color: lightgray;
+  background-color: var(--header-color);
 }
 
 .navbar {
@@ -386,6 +386,29 @@ li {
   grid-row: 2;
 }
 
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 5rem;
+  gap: 2%;
+}
+
+.index-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: repeat(1, 1fr); */
+  padding: 5rem;
+  gap: 2%;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 5rem;
+  gap: 2%;
+}
+
 /* .aaben {
   position: absolute;
   width: 18%;
@@ -404,7 +427,7 @@ li {
   animation-direction: alternate;
 } */
 
-.aaben {
+/* .aaben {
   display: grid;
   cursor: pointer;
   font-size: 0.8rem;
@@ -412,15 +435,15 @@ li {
   color: white;
   font-size: 1rem;
   margin-inline: auto;
-}
+} */
 
-/* aaben */
+/* aaben
 @media (min-width: 700px) {
   .tema {
     display: grid;
-  }
+  } */
 
-  /* .container {
+/* .container {
     display: grid;
     gap: 5rem;
     padding-bottom: 1.5rem;
@@ -429,7 +452,7 @@ li {
     margin: 4rem;
   } */
 
-  .tema_img {
+/* .tema_img {
     display: grid;
     place-items: center;
   }
@@ -443,18 +466,9 @@ li {
   .btn_udforsk:hover {
     background-color: var(--primary-color);
     color: white;
-  }
-}
+  } */
 
-.tema_img > * {
+/* .tema_img > * {
   /* grid-area: 1/1; */
-  place-self: center;
-}
-
-.collage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 5%;
-  gap: 2%;
-}
+/* place-self: center;
+} */
