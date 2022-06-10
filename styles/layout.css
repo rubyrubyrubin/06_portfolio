@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* costum property farver */
+html {
+  --header-color: #fef1d2;
+  --background-color: lightgray;
+  --beige: #eae6df;
+  --text: #14454a;
+  --green: #e7f7b4;
+}
+
+html {
+  --main-font: "Poller One", cursive;
+  --small-font: "Mukta", sans-serif;
+}
+
 .border {
   font-size: 1.6rem;
   display: grid;
@@ -119,16 +143,19 @@
   grid-column: 3;
   grid-row: 1/3;
   padding-top: 6rem;
+  height: fit-content;
 }
 
 .om3 {
   grid-column: 1;
   grid-row: 2;
+  height: fit-content;
 }
 
 .om4 {
   grid-column: 2;
   grid-row: 2;
+  height: fit-content;
 }
 
 /*  */
@@ -180,22 +207,49 @@
   gap: 2%;
 }
 
-.powerpoint {
+.del1_img {
   display: grid;
   grid-template-columns: 0.1fr 1fr 0.1fr;
   height: fit-content;
 }
 
-.und_stil {
+.del1_stil {
   display: grid;
   grid-column: 1;
   height: fit-content;
 }
 
-.und_tekst {
-  background-color: lightgrey;
+.boks_tekst {
+  background-color: var(--beige);
+  display: grid;
+  grid-column: 1;
+  height: fit-content;
+  max-width: 10in;
+  border-radius: 20px;
+}
+/* .del2_img {
+  display: grid;
+  grid-column: 1;
+  height: fit-content;
+} */
+
+.del2_stil {
+  display: grid;
+  grid-column: 1fr;
+  height: fit-content;
+  padding-inline: 8rem;
 }
 
+.boks {
+  height: fit-content;
+}
+
+.center_tekst {
+  text-align: center;
+  max-width: 8in;
+  height: fit-content;
+}
+/* section 2 */
 .section2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -211,14 +265,14 @@
   }
 
   .logo {
-    width: 15%;
+    width: 13%;
     padding: 3%;
   }
 
   .menu {
     display: block;
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
   }
 
@@ -246,3 +300,30 @@
     display: none;
   }
 }
+
+.tekst_boks_om {
+  margin-block: 4rem;
+  background: var(--green);
+}
+
+.cv_tekst {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: var(--green);
+  text-align: center;
+}
+
+.social_end {
+  padding-bottom: 6rem;
+}
+
+.social_start {
+  padding-top: 2rem;
+}
+
+/* .tit {
+  font-size: 70px;
+  font-weight: 600;
+  background-clip: text;
+  -webkit-background-clip: text;
+} */

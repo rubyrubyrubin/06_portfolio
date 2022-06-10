@@ -5,8 +5,10 @@
 
 /* costum property farver */
 html {
-  --header-color: lightgray;
-  --background-color: lightgray;
+  --grey-color: #eae6df;
+  /* --background-color: lightgray; */
+  --text: #14454a;
+  --green: #e7f7b4;
 }
 
 html {
@@ -27,13 +29,13 @@ video {
 }
 
 p {
-  max-width: 2.5emrem;
+  max-width: 10in;
   font-family: var(--small-font);
   font-size: 0.8rem;
   text-align: center;
   padding-inline: 1rem;
   padding-bottom: 2rem;
-  color: hotpink;
+  color: var(--text);
 
   /* height: fit-content; */
 }
@@ -54,10 +56,11 @@ body {
 
 h1 {
   font-family: var(--main-font);
-  font-size: 2rem;
+  font-size: 3rem;
   padding-top: 0.2rem;
-  color: #ddf29b;
+  color: var(--green);
   text-align: center;
+  text-shadow: 3px 3px #14454a;
 }
 
 h2 {
@@ -65,7 +68,7 @@ h2 {
   font-size: 1.4rem;
   text-align: center;
   padding-block: 1rem;
-  color: white;
+  color: var(--text);
 }
 
 h3 {
@@ -74,27 +77,28 @@ h3 {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   font-size: 1.5rem;
-  color: white;
+  color: var(--text);
 }
 
 /* underline h3 om mig */
 .underline {
-  text-decoration: underline;
+  text-decoration-thickness: 10%;
 }
 
 h4 {
   font-family: var(--small-font);
   text-align: center;
   font-size: 1rem;
-  color: white;
+  color: var(--text);
 }
 
 h5 {
   font-family: var(--small-font);
   text-align: center;
-  font-size: 0.4rem;
-  padding-bottom: 0.7rem;
-  color: white;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+  color: var(--text);
 }
 
 h6 {
@@ -102,7 +106,7 @@ h6 {
   text-align: center;
   font-size: 0.5rem;
   padding-bottom: 0.5rem;
-  color: white;
+  color: var(--text);
 }
 
 footer {
@@ -111,11 +115,11 @@ footer {
   text-align: center;
   padding-top: 1.5rem;
   padding-bottom: 1.2rem;
-  background-color: var(--header-color);
+  background-color: var(--grey-color);
 }
 
 header {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   width: 100%;
   z-index: 100;
@@ -125,6 +129,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--grey-color);
+  opacity: 0.8;
 }
 
 .logo {
@@ -139,7 +145,7 @@ header {
 .nav_list,
 li {
   display: inline-block;
-  padding: 0.7rem;
+  padding-inline: 7rem;
 }
 
 .navbar a {
@@ -156,7 +162,7 @@ li {
 .menu {
   display: block;
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 20px;
 }
 
@@ -180,4 +186,16 @@ iframe {
   height: 311px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tilbage {
+  margin-inline: 5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  color: var(--text);
+  background-color: var(--green);
+  padding-inline: 1.3rem;
+  padding-block: 0.4rem;
+  font-family: var(--small-font);
+  border-radius: 25px;
 }
