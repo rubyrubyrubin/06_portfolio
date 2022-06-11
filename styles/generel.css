@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,6 +21,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* SKYGGE TIL KLIKBARE IMG */
 .img_wrapper {
   filter: drop-shadow(10px 10px 4px #000000);
   cursor: pointer;
@@ -46,14 +49,6 @@ body {
   line-height: 1.6;
 }
 
-.bg {
-  background-image: url(../img/oceanlight.webp);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1 {
   font-family: var(--main-font);
   font-size: 3rem;
@@ -78,11 +73,6 @@ h3 {
   padding-bottom: 1rem;
   font-size: 1.5rem;
   color: var(--text);
-}
-
-/* underline h3 om mig */
-.underline {
-  text-decoration-thickness: 10%;
 }
 
 h4 {
@@ -113,9 +103,11 @@ footer {
   position: sticky;
   top: 100vh;
   text-align: center;
+  place-content: center;
   padding-top: 1.5rem;
   padding-bottom: 1.2rem;
   background-color: var(--grey-color);
+  font-family: var(--small-font);
 }
 
 header {
@@ -129,12 +121,12 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--grey-color);
+  background-color: var(--beige);
   opacity: 0.8;
 }
 
 .logo {
-  width: 10%;
+  width: 9%;
   float: left;
 }
 
@@ -173,29 +165,47 @@ li {
   background-color: #2f3c7e;
 }
 
-/* SKYGGE TIL KLIKBARE IMG */
-.img_wrapper {
-  filter: drop-shadow(10px 10px 4px #000000);
-  transition: transform 0.2s;
+/* NAVBAR MOBILE */
+@media all and (max-width: 760px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+    display: block;
+  }
+
+  .logo {
+    width: 13%;
+    padding: 3%;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .nav_list,
+  li {
+    display: block;
+    border-bottom: 1px solid #2f3c7e;
+  }
+
+  .nav_list {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
 }
 
-/* powerpoint */
-iframe {
-  grid-column: 2;
-  width: 450px;
-  height: 311px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tilbage {
-  margin-inline: 5rem;
-  margin-top: 2rem;
-  cursor: pointer;
-  color: var(--text);
-  background-color: var(--green);
-  padding-inline: 1.3rem;
-  padding-block: 0.4rem;
-  font-family: var(--small-font);
-  border-radius: 25px;
+@media all and (min-width: 600px) {
+  #toggle-button {
+    display: none;
+  }
 }
