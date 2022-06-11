@@ -1,27 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-html {
-  --header-color: #fef1d2;
-  --background-color: lightgray;
-  --beige: #eae6df;
-  --text: #14454a;
-  --green: #e7f7b4;
-}
-
-html {
-  --main-font: "Poller One", cursive;
-  --small-font: "Mukta", sans-serif;
-}
-
 /* powerpoint */
 /* iframe {
   grid-column: 1/1;
