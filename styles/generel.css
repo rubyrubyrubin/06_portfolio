@@ -34,7 +34,7 @@ video {
 p {
   max-width: 10in;
   font-family: var(--small-font);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   padding-inline: 1rem;
   padding-bottom: 2rem;
@@ -48,6 +48,15 @@ body {
   min-height: 100vh;
   line-height: 1.6;
 }
+
+.body_color02 {
+  /* background: linear-gradient(#7ec8de, #baa6f0); */
+  background: linear-gradient(230deg, #baa6f0, #a4daeb 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%);
+}
+
+/* .body_color03 {
+  background: linear-gradient(230deg, #baa6f0, #c5df73 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%);
+} */
 
 h1 {
   font-family: var(--main-font);
@@ -115,14 +124,18 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
+  border-radius: 25px;
+  /* background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 0, 0)); */
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--beige);
+  background: linear-gradient(0.25turn, rgb(115, 115, 115), rgba(58, 58, 58, 0));
+  border-color: grey;
   opacity: 0.8;
+  /* border-radius: 25px; */
 }
 
 .logo {
