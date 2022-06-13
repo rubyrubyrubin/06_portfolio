@@ -844,7 +844,6 @@ img {
   .om_mig :nth-child(8) {
     grid-column: 2/12;
     grid-row: 6;
-    padding-bottom: 2rem;
   }
 }
 
