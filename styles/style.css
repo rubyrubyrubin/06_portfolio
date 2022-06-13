@@ -335,14 +335,14 @@ img {
   max-width: 100%;
 }
 
-/* refleksion pilot */
+/* video */
 .container2 :nth-child(3) {
   grid-column: 1/13;
   grid-row: 3;
   max-width: 100%;
 }
 
-/* video */
+/* refleksion pilot */
 .container2 :nth-child(4) {
   grid-column: 1/13;
   grid-row: 4;
@@ -352,42 +352,35 @@ img {
 /* redesign */
 .container2 :nth-child(5) {
   grid-column: 1/13;
-  grid-row: 5;
-  max-width: 100%;
-}
-
-/* process */
-.container2 :nth-child(6) {
-  grid-column: 1/13;
   grid-row: 6;
   max-width: 100%;
 }
 
 /* proc. dok */
-.container2 :nth-child(7) {
+.container2 :nth-child(6) {
   grid-column: 1/13;
   grid-row: 7;
   max-width: 100%;
 }
 
-/* powerpoint */
-.container2 :nth-child(8) {
+/* link til siden */
+.container2 :nth-child(7) {
   grid-column: 1/13;
   grid-row: 8;
-  width: 310px;
-  height: 210px;
   place-content: center;
 }
 
-/* link til siden */
-.container2 :nth-child(9) {
+/* powerpoint */
+.container2 :nth-child(8) {
   grid-column: 1/13;
   grid-row: 9;
   max-width: 100%;
+  width: 310px;
+  height: 210px;
 }
 
 /* relfeksion */
-.container2 :nth-child(10) {
+.container2 :nth-child(9) {
   grid-column: 1/13;
   grid-row: 10;
   max-width: 100%;
@@ -404,7 +397,6 @@ img {
   .container {
     padding-bottom: 2rem;
   }
-
   /* pilot text */
   .container2 :nth-child(1) {
     grid-column: 2/12;
@@ -418,60 +410,53 @@ img {
     max-width: 100%;
   }
 
-  /* refleksion pilot */
+  /* video */
   .container2 :nth-child(3) {
-    grid-column: 2/12;
+    grid-column: 1/13;
     grid-row: 3;
     max-width: 100%;
   }
 
-  /* video */
+  /* refleksion pilot */
   .container2 :nth-child(4) {
-    grid-column: 1/13;
+    grid-column: 2/12;
     grid-row: 4;
     max-width: 100%;
   }
 
   /* redesign */
   .container2 :nth-child(5) {
-    grid-column: 1/8;
-    grid-row: 5;
-    max-width: 100%;
-  }
-
-  /* process */
-  .container2 :nth-child(6) {
-    grid-column: 8/13;
-    grid-row: 5;
-    max-width: 100%;
-  }
-
-  /* proc. dok */
-  .container2 :nth-child(7) {
-    grid-column: 1/13;
+    grid-column: 2/12;
     grid-row: 6;
     max-width: 100%;
   }
 
-  /* powerpoint */
-  .container2 :nth-child(8) {
-    grid-column: 1/13;
+  /* tema. dok */
+  .container2 :nth-child(6) {
+    grid-column: 1/7;
     grid-row: 7;
-    width: 610px;
-    height: 380px;
-    place-content: center;
-  }
-
-  /* link til siden */
-  .container2 :nth-child(9) {
-    grid-column: 1/13;
-    grid-row: 8;
     max-width: 100%;
   }
 
+  /* link til siden */
+  .container2 :nth-child(7) {
+    grid-column: 7/13;
+    grid-row: 7;
+    place-content: center;
+  }
+
+  /* powerpoint */
+  .container2 :nth-child(8) {
+    grid-column: 4/11;
+    grid-row: 8;
+    max-width: 100%;
+    width: 310px;
+    height: 210px;
+  }
+
   /* relfeksion */
-  .container2 :nth-child(10) {
-    grid-column: 2/12;
+  .container2 :nth-child(9) {
+    grid-column: 1/13;
     grid-row: 9;
     max-width: 100%;
   }
@@ -485,7 +470,7 @@ img {
     margin: 1rem;
   } */
 
-  .container {
+  .container2 {
     gap: 4rem;
     padding-bottom: 3rem;
     padding-inline: 4rem;
@@ -493,25 +478,25 @@ img {
 
   /* pilot text */
   .container2 :nth-child(1) {
-    grid-column: 2/8;
+    grid-column: 1/8;
     grid-row: 1;
   }
 
   /* img af pilot site */
   .container2 :nth-child(2) {
-    grid-column: 8/12;
+    grid-column: 8/13;
     grid-row: 1;
     max-width: 100%;
   }
 
-  /* refleksion pilot */
+  /* video */
   .container2 :nth-child(3) {
-    grid-column: 2/8;
+    grid-column: 1/8;
     grid-row: 2;
     max-width: 100%;
   }
 
-  /* video */
+  /* refleksion pilot */
   .container2 :nth-child(4) {
     grid-column: 8/13;
     grid-row: 2;
@@ -520,45 +505,38 @@ img {
 
   /* redesign */
   .container2 :nth-child(5) {
-    grid-column: 2/8;
+    grid-column: 2/12;
     grid-row: 4;
     max-width: 100%;
   }
 
-  /* process */
+  /* tema. dok */
   .container2 :nth-child(6) {
     grid-column: 8/12;
-    grid-row: 4;
+    grid-row: 5;
     max-width: 100%;
   }
 
-  /* proc. dok */
+  /* link til siden */
   .container2 :nth-child(7) {
-    grid-column: 8/13;
+    grid-column: 2/8;
     grid-row: 5;
-    max-width: 100%;
+    place-content: center;
   }
 
   /* powerpoint */
   .container2 :nth-child(8) {
-    grid-column: 4/11;
+    grid-column: 4/12;
     grid-row: 6;
-    width: 700px;
-    height: 430px;
-    place-content: center;
-  }
-
-  /* link til siden */
-  .container2 :nth-child(9) {
-    grid-column: 1/8;
-    grid-row: 5;
     max-width: 100%;
+    width: 580px;
+    height: 380px;
   }
 
   /* relfeksion */
-  .container2 :nth-child(10) {
-    grid-column: 2/12;
-    grid-row: 8;
+  .container2 :nth-child(9) {
+    grid-column: 1/13;
+    grid-row: 9;
     max-width: 100%;
   }
 }

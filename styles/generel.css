@@ -151,7 +151,8 @@ header {
 .nav_list,
 li {
   display: inline-block;
-  padding-inline: 7rem;
+  padding-inline: 5rem;
+  align-items: right;
 }
 
 .navbar a {
