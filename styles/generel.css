@@ -47,12 +47,11 @@ p {
 body {
   min-height: 100vh;
   line-height: 1.6;
-}
-
-.body_color02 {
-  /* background: linear-gradient(#7ec8de, #baa6f0); */
   background: linear-gradient(230deg, #baa6f0, #a4daeb 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%);
 }
+
+/* background: linear-gradient(#7ec8de, #baa6f0); */
+/* background: linear-gradient(230deg, #baa6f0, #a4daeb 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%); */
 
 /* .body_color03 {
   background: linear-gradient(230deg, #baa6f0, #c5df73 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%);
@@ -135,7 +134,7 @@ header {
   align-items: center;
   background: linear-gradient(0.25turn, rgb(115, 115, 115), rgba(58, 58, 58, 0));
   border-color: grey;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   /* border-radius: 25px; */
 }
 
@@ -152,7 +151,6 @@ header {
 li {
   display: inline-block;
   padding-inline: 5rem;
-  align-items: right;
 }
 
 .navbar a {
