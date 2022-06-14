@@ -50,13 +50,6 @@ body {
   background: linear-gradient(230deg, #baa6f0, #a4daeb 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%);
 }
 
-/* background: linear-gradient(#7ec8de, #baa6f0); */
-/* background: linear-gradient(230deg, #baa6f0, #a4daeb 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%); */
-
-/* .body_color03 {
-  background: linear-gradient(230deg, #baa6f0, #c5df73 80.71%), linear-gradient(127deg, beige, #c5df73 70.71%), linear-gradient(336deg, #353cac, #c5df73 50.71%);
-} */
-
 h1 {
   font-family: var(--main-font);
   font-size: 3rem;
@@ -117,6 +110,7 @@ footer {
   padding-bottom: 1.2rem;
   background-color: var(--grey-color);
   font-family: var(--small-font);
+  opacity: 0.6;
 }
 
 header {
@@ -230,5 +224,5 @@ li {
 } */
 
 #zoom-a:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
