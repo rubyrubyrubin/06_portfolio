@@ -23,7 +23,7 @@ img {
 }
 
 /* img hover zoom */
-#zoom-a:hover {
+.zoom-a:hover {
   transform: scale(1.1);
 }
 
@@ -192,11 +192,18 @@ footer {
 }
 
 /* mobil menu */
+
+/* mobil menu */
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     position: relative;
     display: block;
+    min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
   }
 
   .logo {
@@ -206,16 +213,19 @@ footer {
     opacity: 0.9;
   }
 
-  .icons {
-    display: none;
-  }
-
   .menu {
-    display: block;
+    /* display: block; */
     position: absolute;
     top: 10px;
     right: 20px;
   }
+  /* .menu{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  } */
 
   .nav_list,
   li {
@@ -235,7 +245,7 @@ footer {
   .active {
     display: block;
   }
-}
+} 
 
 /* 
 .navbar {
@@ -338,3 +348,97 @@ li {
   height: auto;
   transition: transform ease-in-out 0.3s;
 } */
+
+/* .toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(burger.svg);
+  background-repeat: no-repeat;
+  background-size: 46px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.toggle.active {
+  background: url(burger.svg);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+  background-size: 48px;
+} */
+
+/* .navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+} */
+
+/* .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #14454a;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .burger {
+    display: block;
+  }
+
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #14454a;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }{

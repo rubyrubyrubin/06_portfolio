@@ -17,16 +17,23 @@
         <a href="index.html"> <img src="./img/Icon.png" alt="anna" /></a>
       </div>
       <nav class="navbar">
-        <ul class="nav_list" id="navi-list">
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="om_mig.html">Om mig</a></li>
-          <li><a href="07.html">CV</a></li>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="om_mig.html">Om mig</a>
+          </li>
+          <li class="nav-item">
+            <a href="07.html">CV</a>
+          </li>
         </ul>
 
-        <div class="menu" id="toggle-button">
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
+        <div class="burger">
+          <!-- span used to design -->
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </nav>
     </header>
@@ -51,7 +58,18 @@
         © Anna Rubin
       </div>
     </footer>
-    <script src="./script/java.js"></script>
-    <script src="./script/login.js"></script>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+
+    <!-- <script src="./script/java.js"></script>
+    <script src="./script/login.js"></script> -->
   </body>
 </html>
