@@ -125,7 +125,6 @@ footer {
   opacity: 0.6;
 }
 
-
 /* STOR MENU */
 @media (min-width: 600px) {
   header {
@@ -178,7 +177,6 @@ footer {
 
 /* mobil menu */
 @media (max-width: 600px) {
-
   header {
     display: flex;
     position: sticky;
@@ -200,10 +198,10 @@ footer {
     position: relative;
     display: block;
     min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
   }
 
   .logo {
@@ -245,7 +243,7 @@ footer {
   .active {
     display: block;
   }
-} 
+}
 
 /* 
 .navbar {
@@ -442,3 +440,49 @@ li {
   .nav-menu.active {
     left: 0;
   }{
+
+
+/* 
+ */
+
+/* style navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* hide links inside navigation menu */
+.topnav #myLinks {
+  display: none;
+}
+
+/* style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
