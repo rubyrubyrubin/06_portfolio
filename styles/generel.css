@@ -125,23 +125,6 @@ footer {
   opacity: 0.6;
 }
 
-@media (max-width: 600px) {
-  header {
-    display: flex;
-    position: sticky;
-    flex-flow: wrap;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6px 40px;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    /* border-radius: 25px; */
-    /* background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 0, 0)); */
-  }
-}
 
 /* STOR MENU */
 @media (min-width: 600px) {
@@ -195,6 +178,23 @@ footer {
 
 /* mobil menu */
 @media (max-width: 600px) {
+
+  header {
+    display: flex;
+    position: sticky;
+    flex-flow: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px 40px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    /* border-radius: 25px; */
+    /* background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 0, 0)); */
+  }
+
   .navbar {
     flex-direction: column;
     position: relative;
