@@ -17,28 +17,19 @@
       <div class="logo">
         <a href="index.html"> <img src="./img/Icon.png" alt="anna" /></a>
       </div>
-      <nav class="topnav">
-        <ul class="topnav">
-          <li class="topnav">
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="om_mig.html">Om mig</a>
-          </li>
-          <li class="nav-item">
-            <a href="07.html">CV</a>
-          </li>
-        </ul>
-
-        <!-- burger menu / bar til toggle nav links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-        <!-- <div class="menu" id="toggle-button">
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
-        </div> -->
+      <nav>
+        <div class="mobile-container">
+          <div class="topnav">
+            <div id="myLinks">
+              <a href="portfolio.html">Portfolio</a>
+              <a href="om_mig.html">Om mig</a>
+              <a href="07.html">CV</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -62,7 +53,18 @@
         © Anna Rubin
       </div>
     </footer>
-    <script src="./script/java.js"></script>
-    <script src="./script/login.js"></script>
+    <!-- <script src="./script/java.js"></script>
+    <script src="./script/login.js"></script> -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

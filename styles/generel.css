@@ -193,7 +193,7 @@ footer {
     /* background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 0, 0)); */
   }
 
-  .navbar {
+  /* .navbar {
     flex-direction: column;
     position: relative;
     display: block;
@@ -202,7 +202,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-  }
+  } */
 
   .logo {
     display: flex;
@@ -211,12 +211,12 @@ footer {
     opacity: 0.9;
   }
 
-  .menu {
-    /* display: block; */
-    position: absolute;
+  /* .menu { */
+  /* display: block; */
+  /* position: absolute;
     top: 10px;
     right: 20px;
-  }
+  } */
   /* .menu{
   min-height: 70px;
   display: flex;
@@ -225,7 +225,7 @@ footer {
   padding: 0 24px;
   } */
 
-  .nav_list,
+  /* .nav_list,
   li {
     display: block;
     border-bottom: 1px solid #2f3c7e;
@@ -243,9 +243,9 @@ footer {
   .active {
     display: block;
   }
-}
+} */
 
-/* 
+  /* 
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -253,9 +253,9 @@ footer {
   background: linear-gradient(0.25turn, rgb(115, 115, 115), rgba(58, 58, 58, 0));
   border-color: grey;
   /* opacity: 0.8; */
-/* border-radius: 25px; */
+  /* border-radius: 25px; */
 
-/* 
+  /* 
 .logo {
   width: 9%;
   float: left;
@@ -296,8 +296,8 @@ li {
   background-color: #2f3c7e;
 } */
 
-/* NAVBAR MOBILE */
-/* @media all and (max-width: 760px) {
+  /* NAVBAR MOBILE */
+  /* @media all and (max-width: 760px) {
   .navbar {
     flex-direction: column;
     position: relative;
@@ -340,14 +340,14 @@ li {
     display: none;
   }
 } */
-/* 
+  /* 
 #zoom-a {
   width: 600px;
   height: auto;
   transition: transform ease-in-out 0.3s;
 } */
 
-/* .toggle {
+  /* .toggle {
   position: relative;
   width: 60px;
   height: 60px;
@@ -367,7 +367,7 @@ li {
   background-size: 48px;
 } */
 
-/* .navbar {
+  /* .navbar {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -375,7 +375,7 @@ li {
   padding: 0 24px;
 } */
 
-/* .nav-menu {
+  /* .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -445,44 +445,97 @@ li {
 /* 
  */
 
-/* style navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
+  /* @media (max-width: 600px) { */
+  /* style navigation menu */
+  /* .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  } */
 
-/* hide links inside navigation menu */
-.topnav #myLinks {
-  display: none;
-}
+  /* hide links inside navigation menu */
+  /* .topnav #myLinks {
+    display: none;
+  } */
 
-/* style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
+  /* style navigation menu links */
+  /* .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  } */
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+  /* Style the hamburger menu */
+  /* .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  } */
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+  /* Add a grey background color on mouse-over */
+  /* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
 
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #04aa6d;
-  color: white;
+  /* Style the active link (or home/logo) */
+  /* .active {
+    background-color: #04aa6d;
+    color: white;
+  }
+} */
+
+  /* menu */
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    text-decoration: none;
+    color: var(--grey-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: #04aa6d;
+    color: white;
+  }
 }
