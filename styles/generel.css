@@ -155,8 +155,8 @@ li {
 
 .navbar a {
   text-decoration: none;
-  color: black;
-  font-family: var(--small-font);
+  color: var(--grey-color);
+  font-family: var(--main-font);
   font-size: 1rem;
 }
 
@@ -221,4 +221,14 @@ li {
   #toggle-button {
     display: none;
   }
+}
+/* 
+#zoom-a {
+  width: 600px;
+  height: auto;
+  transition: transform ease-in-out 0.3s;
+} */
+
+#zoom-a:hover {
+  transform: scale(1.2);
 }

@@ -661,7 +661,7 @@ img {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: minmax(fr, auto);
+  grid-auto-rows: minmax(100px, auto);
   gap: 1rem;
   padding-top: 3rem;
   padding-inline: 3rem;
