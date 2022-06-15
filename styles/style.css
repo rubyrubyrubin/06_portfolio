@@ -158,6 +158,11 @@ img {
   grid-row: 11;
 }
 
+.container :nth-child(12) {
+  grid-column: 3/11;
+  grid-row: 12;
+}
+
 /* ////////////////////////////////////////////////// */
 /* MEDIUM TABLET SCREEN CONTAINER 2, 3, 4*/
 /* ////////////////////////////////////////////////// */
@@ -233,6 +238,11 @@ img {
   .container :nth-child(11) {
     grid-column: 2/12;
     grid-row: 7;
+  }
+
+  .container :nth-child(12) {
+    grid-column: 4/10;
+    grid-row: 8;
   }
 }
 
