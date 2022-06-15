@@ -137,13 +137,6 @@ header {
   width: 95px;
 }
 
-/* .topnav {
-  float: right;
-  display: flex;
-  flex-direction: column-reverse;
-} */
-
-/* mobil menu */
 @media (max-width: 600px) {
   header {
     display: flex;
@@ -167,10 +160,6 @@ header {
   .topnav a.icon {
     position: absolute;
   }
-
-  /* .mobile-container {
-    height: 500px;
-  } */
 
   .navbar {
     flex-direction: column;
@@ -235,15 +224,6 @@ header {
 /* STOR MENU desktop*/
 
 @media (min-width: 600px) {
-  .mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #757575;
-    color: white;
-    border-radius: 10px;
-    float: right;
-  }
-
   .topnav {
     overflow: hidden;
     position: relative;

@@ -320,6 +320,10 @@ img {
     grid-column: 3/11;
     grid-row: 10;
   }
+  .container :nth-child(12) {
+    grid-column: 5/9;
+    grid-row: 11;
+  }
 }
 
 /* ////////////////////////////////////////////////// */
