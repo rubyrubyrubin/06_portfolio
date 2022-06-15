@@ -10,29 +10,23 @@
     <title>Om mig</title>
     <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Yeseva+One&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="./img/Icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="index.html"> <img src="./img/Icon.png" alt="anna" /></a>
       </div>
-      <nav class="navbar">
-        <ul class="nav-menu">
-          <li class="nav-item">
+      <nav>
+        <div class="topnav">
+          <div id="myLinks">
             <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
             <a href="om_mig.html">Om mig</a>
-          </li>
-          <li class="nav-item">
             <a href="07.html">CV</a>
-          </li>
-        </ul>
-
-        <div class="menu" id="toggle-button">
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
       </nav>
     </header>
@@ -50,10 +44,6 @@
           <h2>Hvorfor MMD?</h2>
           <p>Gennem hele min skoletid har jeg været særligt investeret i det kreative fag, og lavet diverse projekter i min fritid som f.eks. kortfilm og malerier. Jeg søgte ind på MMD linjen fordi jeg gerne ville lære en måde at kunne skabe grafiske profiler og omlægge mine kreative ideer til virkelighed. Jeg valgte netop KEA fordi det er et sted hvor design bliver praksis. Gennem første semester finder jeg mig bedre og bedre til rette i de to modpoler af design og kodning. Her træner jeg både min stædighed og min trang til kunstneriske og tekniske processer.</p>
         </div>
-        <!-- <div class="text-box">
-        <h2>Digital kunst</h2>
-        <p>Forneden kan du se nogle af de små animationer og illustrationer jeg laver i min fritid...</p>
-      </div> -->
         <img src="vid/alien.png" alt="alien" />
         <!-- <img src="img/enlight.webp" alt="en" /> -->
         <img src="./vid/rubin.png" alt="rubin" />
@@ -65,21 +55,23 @@
     </main>
     <footer>
       <div class="footer">
-        Sidst opdateret: 14 Juni <br />
+        Sidst opdateret: 15 Juni <br />
         © Anna Rubin
       </div>
     </footer>
 
-    <!-- <script>
-      const menuToggle = document.querySelector(".toggle");
-      const showcase = document.querySelector(".showcase");
-
-      menuToggle.addEventListener("click", () => {
-        menuToggle.classList.toggle("active");
-        showcase.classList.toggle("active");
-      });
-    </script> -->
     <script src="./script/java.js"></script>
     <script src="./script/login.js"></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

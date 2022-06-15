@@ -10,23 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Yeseva+One&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="./img/Icon.png" />
     <title>06_Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="index.html"> <img src="./img/Icon.png" alt="anna" /></a>
       </div>
-      <nav class="navbar">
-        <ul class="nav_list" id="navi-list">
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="om_mig.html">Om mig</a></li>
-          <li><a href="07.html">CV</a></li>
-        </ul>
-
-        <div class="menu" id="toggle-button">
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
-          <div class="menu_burger"></div>
+      <nav>
+        <div class="topnav">
+          <div id="myLinks">
+            <a href="portfolio.html">Portfolio</a>
+            <a href="om_mig.html">Om mig</a>
+            <a href="07.html">CV</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
       </nav>
     </header>
@@ -83,11 +83,22 @@
     </main>
     <footer>
       <div class="footer">
-        Sidst opdateret: 14 Juni <br />
+        Sidst opdateret: 15 Juni <br />
         © Anna Rubin
       </div>
     </footer>
     <script src="./script/java.js"></script>
     <script src="./script/login.js"></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
