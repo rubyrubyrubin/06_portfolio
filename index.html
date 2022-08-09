@@ -10,6 +10,7 @@
     <title>Forside</title>
     <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Yeseva+One&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="./img/Icon.png" />
+    <!-- downloadet burger menu bars -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
@@ -18,12 +19,14 @@
         <a href="index.html"> <img src="./img/Icon.png" alt="anna" /></a>
       </div>
       <nav>
+        <!-- top navigations menu med links-->
         <div class="topnav">
           <div id="myLinks">
             <a href="portfolio.html">Portfolio</a>
             <a href="om_mig.html">Om mig</a>
             <a href="07.html">CV</a>
           </div>
+          <!-- burger menu icon til at toggle navigations links-->
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
@@ -54,6 +57,8 @@
     <script src="./script/java.js"></script>
     <script src="./script/login.js"></script>
 
+    <!-- toggle mellem at vise og skjule navigations menuen med links 
+      naar brugeren klikker paa burger bar icon -->
     <script>
       function myFunction() {
         var x = document.getElementById("myLinks");
